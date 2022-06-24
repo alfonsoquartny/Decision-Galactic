@@ -258,26 +258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d308288187e31fd40a03da62ec3be3e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionText:
-  - "e\u015Fim uzay arac\u0131m\u0131n i\xE7ine tuvaletini yapm\u0131\u015F! Ondan
-    ayr\u0131lmak istiyorum."
-  - ah shit here we go again.
-  - "avengers ekibimi kaybettim aramam i\xE7in izin \xE7\u0131kart\u0131rm\u0131s\u0131n."
-  - "Asgard sizinle sava\u015Fa haz\u0131rlan\u0131yor Efendim. Ne yapacaks\u0131n\u0131z?"
-  - "ben siki walker benimle kap\u0131\u015Fmaya ne dersin?!"
-  - ben Obiwan!
-  - ben Rick, Rick Grames!
-  - ben mandalorian
-  - ben gwen stacy!
-  - "Ad\u0131m Jabbaaa!"
-  - Ben clone soldier 01
-  - ben clone soldier 02
-  - ben jarjar!
-  - ben lanever!
-  - bendiniz Padme!
-  - ben palpatin!!
-  - "Ad\u0131m Tano!"
-  - "Ben Ka\xE7\u0131n\u0131lmaz\u0131m"
   leftStrings:
   - Left Option1
   - Left Option2
@@ -296,6 +276,10 @@ MonoBehaviour:
   - Left Option15
   - Left Option16
   - Left Option17
+  - Left Option18
+  - Left Option18
+  - Left Option18
+  - Left Option18
   - Left Option18
   rightStrings:
   - 'Right Option '
@@ -316,9 +300,13 @@ MonoBehaviour:
   - 'Right Option '
   - 'Right Option '
   - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
   tr: 0
-  eng: 0
-  jp: 1
+  eng: 1
+  jp: 0
   nicks:
   - Nick
   - Nick
@@ -382,6 +370,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 59f7da44de47bb048a7a7ca49d839160, type: 3}
   - {fileID: 21300000, guid: 6d1199aafb191734884efa890a1fa97b, type: 3}
   - {fileID: 21300000, guid: 8afae9f8cbca7df42a758b04028f9257, type: 3}
+  - {fileID: 21300000, guid: 75e6b972124f7d142a89be2bc67060e9, type: 3}
+  - {fileID: 21300000, guid: b10ee6b127cd233489b2a013eee3a1ba, type: 3}
+  - {fileID: 21300000, guid: 4bf4b1031d1ef854085752be0a320237, type: 3}
+  - {fileID: 21300000, guid: 2d87ffc6124857e47bd5776f3e99bfc2, type: 3}
   theText: {fileID: 4900000, guid: 8024d920d6457a141902ad174aaa9f11, type: 3}
   linesTR: []
   linesEn: []
