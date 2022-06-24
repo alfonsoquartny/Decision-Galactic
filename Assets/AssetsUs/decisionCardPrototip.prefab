@@ -269,12 +269,99 @@ MonoBehaviour:
   - ben Rick, Rick Grames!
   - ben mandalorian
   - ben gwen stacy!
+  - "Ad\u0131m Jabbaaa!"
+  - Ben clone soldier 01
+  - ben clone soldier 02
+  - ben jarjar!
+  - ben lanever!
+  - bendiniz Padme!
+  - ben palpatin!!
+  - "Ad\u0131m Tano!"
+  - "Ben Ka\xE7\u0131n\u0131lmaz\u0131m"
+  leftStrings:
+  - Left Option1
+  - Left Option2
+  - Left Option3
+  - Left Option4
+  - Left Option5
+  - Left Option6
+  - Left Option7
+  - Left Option8
+  - Left Option9
+  - Left Option10
+  - Left Option11
+  - Left Option12
+  - Left Option13
+  - Left Option14
+  - Left Option15
+  - Left Option16
+  - Left Option17
+  - Left Option18
+  rightStrings:
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  - 'Right Option '
+  tr: 0
+  eng: 0
+  jp: 1
+  nicks:
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
+  infos:
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
+  - Info
   question: {fileID: 0}
   leftText: {fileID: 7020296165849761656}
   RightText: {fileID: 7020296165806631155}
   nick: {fileID: 1936597901}
   info: {fileID: 283523428}
-  fillOfBlade: 1
   sr: {fileID: 7020296165755367762}
   sprites:
   - {fileID: 21300000, guid: f63ffb8bafde50a45b98a2d9429e208d, type: 3}
@@ -286,7 +373,20 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6c3d19bf331458f4dbb02315109acc88, type: 3}
   - {fileID: 21300000, guid: 9978fec04a5933548ae16cc7081894c3, type: 3}
   - {fileID: 21300000, guid: 58469e79a06e6ef439344bc1016f31a3, type: 3}
-  drag: {fileID: 7020296164672897761}
+  - {fileID: 21300000, guid: 5c5f5b59a4ad8fe44a28c1a84160c2ae, type: 3}
+  - {fileID: 21300000, guid: a6aae37732dfb9a458fbcb654c57c176, type: 3}
+  - {fileID: 21300000, guid: 3419b0f07bbe7654f8c4c96e0248a434, type: 3}
+  - {fileID: 21300000, guid: bbdf2211c83b4d04f8c89af0e1b88807, type: 3}
+  - {fileID: 21300000, guid: ba04f23736b38324c8dfec7c9c614021, type: 3}
+  - {fileID: 21300000, guid: f6db10fe00d52df47b735335b52f0267, type: 3}
+  - {fileID: 21300000, guid: 59f7da44de47bb048a7a7ca49d839160, type: 3}
+  - {fileID: 21300000, guid: 6d1199aafb191734884efa890a1fa97b, type: 3}
+  - {fileID: 21300000, guid: 8afae9f8cbca7df42a758b04028f9257, type: 3}
+  theText: {fileID: 4900000, guid: 8024d920d6457a141902ad174aaa9f11, type: 3}
+  linesTR: []
+  linesEn: []
+  linesJp: []
+  subtitles: {fileID: 0}
 --- !u!114 &7020296164672897761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,9 +405,6 @@ MonoBehaviour:
   LeftText: {fileID: 7020296165849761656}
   RightText: {fileID: 7020296165806631155}
   prefab: {fileID: 7020296164672897762}
-  rightSelected: 0
-  leftSelected: 0
-  bladeImage: {fileID: 0}
   isRight: 0
   isLeft: 0
   ZmRight: {r: 1, g: 1, b: 1, a: 0}
