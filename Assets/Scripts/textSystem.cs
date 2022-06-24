@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -60,6 +61,7 @@ public class textSystem : MonoBehaviour
             leftText.text = leftStrings[quesIndex];
             RightText.text = rightStrings[quesIndex];
             sr.sprite = sprites[quesIndex];
+
             nick.text = nicks[quesIndex];
             info.text = infos[quesIndex];
 
@@ -95,3 +97,4 @@ public class textSystem : MonoBehaviour
 
 
 }
+#endif
