@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Unity.IO;
+using UnityEditor;
 
 public class textSystem : MonoBehaviour
 {

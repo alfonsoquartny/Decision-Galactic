@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 using UnityEngine.UI;
 
 public class Drag : MonoBehaviour
@@ -15,7 +16,7 @@ public class Drag : MonoBehaviour
 
     public GameObject prefab;
 
-    private textSystem textSystem;
+    public textSystem textSystem;
     private bool rightTaken;
 
 
@@ -31,7 +32,6 @@ public class Drag : MonoBehaviour
 
     private void Start()
     {
-        textSystem = GetComponent<textSystem>();
     }
     private void OnMouseDown()
     {

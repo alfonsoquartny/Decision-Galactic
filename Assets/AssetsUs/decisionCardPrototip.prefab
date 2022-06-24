@@ -326,7 +326,15 @@ MonoBehaviour:
   - Nick
   - Nick
   - Nick
+  - Nick
+  - Nick
+  - Nick
+  - Nick
   infos:
+  - Info
+  - Info
+  - Info
+  - Info
   - Info
   - Info
   - Info
@@ -396,6 +404,7 @@ MonoBehaviour:
   LeftText: {fileID: 7020296165849761656}
   RightText: {fileID: 7020296165806631155}
   prefab: {fileID: 7020296164672897762}
+  textSystem: {fileID: 7020296164672897788}
   isRight: 0
   isLeft: 0
   ZmRight: {r: 1, g: 1, b: 1, a: 0}
