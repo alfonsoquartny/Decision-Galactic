@@ -2230,8 +2230,52 @@ PrefabInstance:
       value: decisionCardPrototip
       objectReference: {fileID: 0}
     - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: eng
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
       propertyPath: question
       value: 
       objectReference: {fileID: 378804220}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: infos.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: nicks.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: infos.Array.data[18]
+      value: Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: infos.Array.data[19]
+      value: Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: infos.Array.data[20]
+      value: Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: infos.Array.data[21]
+      value: Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: nicks.Array.data[18]
+      value: Nick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: nicks.Array.data[19]
+      value: Nick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: nicks.Array.data[20]
+      value: Nick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: nicks.Array.data[21]
+      value: Nick
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}

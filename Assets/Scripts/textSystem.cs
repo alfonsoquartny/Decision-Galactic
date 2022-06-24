@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
 
 public class textSystem : MonoBehaviour
 {
@@ -31,7 +30,6 @@ public class textSystem : MonoBehaviour
     public SpriteRenderer sr;
     public Sprite[] sprites;
 
-    public TextAsset theText;
   public  string[] linesTR;
     public string[] linesEn;
     public string[] linesJp;
