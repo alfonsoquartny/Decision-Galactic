@@ -279,15 +279,15 @@ RectTransform:
   m_GameObject: {fileID: 378804218}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1891195, y: 0.1891195, z: 0.1891195}
+  m_LocalScale: {x: 0.3851986, y: 0.3851986, z: 0.3851986}
   m_Children: []
   m_Father: {fileID: 1845000562}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -143.7632}
-  m_SizeDelta: {x: 3522.2705, y: 628.0095}
+  m_AnchoredPosition: {x: 11.236893, y: -223.0973}
+  m_SizeDelta: {x: 1994.8291, y: 541.7518}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &378804220
 MonoBehaviour:
@@ -310,20 +310,21 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: cce935f3d16b23c4ea6ae35d675e9a36, type: 3}
-    m_FontSize: 173
+    m_Font: {fileID: 12800000, guid: e4ab13eafd4f9754dadb05254aa0d92b, type: 3}
+    m_FontSize: 300
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 1
-    m_AlignByGeometry: 0
+    m_Alignment: 4
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.94
-  m_Text: "e\u015Fim uzay arac\u0131m\u0131n i\xE7ine tuvaletini yapm\u0131\u015F!
-    Ondan ayr\u0131lmak istiyorum."
+    m_LineSpacing: 0.84
+  m_Text: "17Mistik ta\u015Flar\u0131 koleksiyonuma koyuyorum. Teslim ederseniz ba\u011F\u0131\u015Flanabilirsiniz
+    \u015Fans\xF6lye. Elinizdekileri teslim ediyor musunuz yoksa zorla m\u0131 almam\u0131z
+    gerekecek?"
 --- !u!222 &378804221
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -819,7 +820,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6f0517f399ee9954f84c4864351e3640, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1383,6 +1384,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351579902}
   m_CullTransparentMesh: 1
+--- !u!114 &1424990533 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7020296165849761656, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+  m_PrefabInstance: {fileID: 7020296164531807534}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1465377267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +1470,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465377267}
   m_CullTransparentMesh: 1
+--- !u!114 &1512753600 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7020296165806631155, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+  m_PrefabInstance: {fileID: 7020296164531807534}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1530098900
 GameObject:
   m_ObjectHideFlags: 0
@@ -2229,9 +2252,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: decisionCardPrototip
       objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897763, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: leftText
+      value: 
+      objectReference: {fileID: 1512753600}
     - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
       propertyPath: question
       value: 
       objectReference: {fileID: 378804220}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: RightText
+      value: 
+      objectReference: {fileID: 1424990533}
+    - target: {fileID: 7020296165755367762, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296165806631154, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 369.7702
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296165806631154, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.7765
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296165806631155, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296165806631157, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_Name
+      value: RightText
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296165849761656, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296165849761658, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_Name
+      value: LeftText
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296165849761659, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 362.8634
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020296165849761659, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.7945
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}

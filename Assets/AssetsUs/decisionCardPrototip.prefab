@@ -304,8 +304,8 @@ MonoBehaviour:
   - 'Right Option '
   - 'Right Option '
   - 'Right Option '
-  tr: 0
-  eng: 1
+  tr: 1
+  eng: 0
   jp: 0
   nicks:
   - Nick
