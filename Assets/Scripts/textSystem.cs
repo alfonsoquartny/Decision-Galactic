@@ -43,6 +43,7 @@ public class textSystem : MonoBehaviour
 
     void Start()
     {
+        gameObject.transform.name = "card";
         linesTR = System.IO.File.ReadAllLines(@"Assets/languageTRdecision.txt");
         linesEn = System.IO.File.ReadAllLines(@"Assets/languageENdecision.txt");
          linesJp = System.IO.File.ReadAllLines(@"Assets/languageJPdecision.txt");

@@ -286,8 +286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 11.236893, y: -223.0973}
-  m_SizeDelta: {x: 1994.8291, y: 541.7518}
+  m_AnchoredPosition: {x: 4.9165, y: -223.0973}
+  m_SizeDelta: {x: 1937.4006, y: 541.7518}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &378804220
 MonoBehaviour:
@@ -310,8 +310,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e4ab13eafd4f9754dadb05254aa0d92b, type: 3}
-    m_FontSize: 300
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 200
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
@@ -321,10 +321,8 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.84
-  m_Text: "17Mistik ta\u015Flar\u0131 koleksiyonuma koyuyorum. Teslim ederseniz ba\u011F\u0131\u015Flanabilirsiniz
-    \u015Fans\xF6lye. Elinizdekileri teslim ediyor musunuz yoksa zorla m\u0131 almam\u0131z
-    gerekecek?"
+    m_LineSpacing: 0.92
+  m_Text: "8\u3042\u306A\u305F\u306E\u6226\u4E89 \u306F\u3001\u30CD\u30C3\u30C8\u306E\u60D1\u661F\u306B\u307E\u3067\u5E83\u304C\u3063\u3066\u3044\u308B\u3002\u6211\u3005\u306F\u3001\u5171\u548C\u56FD\u3068\u5206\u96E2\u4E3B\u7FA9\u8005\u306B\u53CD\u5BFE\u3057\u3066\u3044\u308B"
 --- !u!222 &378804221
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1384,17 +1382,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351579902}
   m_CullTransparentMesh: 1
---- !u!114 &1424990533 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7020296165849761656, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-  m_PrefabInstance: {fileID: 7020296164531807534}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1465377267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,17 +1457,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465377267}
   m_CullTransparentMesh: 1
---- !u!114 &1512753600 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7020296165806631155, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-  m_PrefabInstance: {fileID: 7020296164531807534}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1530098900
 GameObject:
   m_ObjectHideFlags: 0
@@ -2252,57 +2228,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: decisionCardPrototip
       objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897763, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: jp
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: leftText
-      value: 
-      objectReference: {fileID: 1512753600}
+      propertyPath: eng
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
       propertyPath: question
       value: 
       objectReference: {fileID: 378804220}
     - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: RightText
-      value: 
-      objectReference: {fileID: 1424990533}
-    - target: {fileID: 7020296165755367762, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
+      propertyPath: infos.Array.data[20]
+      value: "\u30C8\u30EC\u30FC\u30C0\u30FC"
       objectReference: {fileID: 0}
-    - target: {fileID: 7020296165806631154, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 369.7702
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296165806631154, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.7765
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296165806631155, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296165806631157, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_Name
-      value: RightText
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296165849761656, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296165849761658, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_Name
-      value: LeftText
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296165849761659, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 362.8634
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296165849761659, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.7945
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: nicks.Array.data[20]
+      value: "Arif \u5149"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
