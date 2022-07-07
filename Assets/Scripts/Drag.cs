@@ -30,6 +30,8 @@ public class Drag : MonoBehaviour
     public Color ZmLeft;
     private bool mouseDown = false;
 
+    public bool yollandiLeft;
+    public bool yollandiRight;
     private void Start()
     {
     }
@@ -168,14 +170,14 @@ public class Drag : MonoBehaviour
             rightTaken = true;
             Destroy(this.gameObject, 3f);
             Instantiate(prefab);
-
+            yollandiRight = true;
         }
 
         if (collision.gameObject.CompareTag("leftTaked"))
         {
            rightTaken = true;
             Destroy(this.gameObject, 3f);
-            Instantiate(prefab);
+            yollandiLeft = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

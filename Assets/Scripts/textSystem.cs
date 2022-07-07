@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Unity.IO;
 using UnityEditor;
+using TMPro;
 
 public class textSystem : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class textSystem : MonoBehaviour
     public string[] nicks;
     public string[] infos;
 
-    public Text question;
+    public TMP_Text question;
 
     private string Wording;
     private int quesIndex;
@@ -39,8 +40,10 @@ public class textSystem : MonoBehaviour
     public Text subtitles;
 
 
-
-
+    public bool Diyalog2;
+    public Drag drag;
+    public TMP_Text diyalog2Text;
+    public string[] diyalog2Strings;
     void Start()
     {
         gameObject.transform.name = "card";
@@ -49,15 +52,18 @@ public class textSystem : MonoBehaviour
          linesJp = System.IO.File.ReadAllLines(@"Assets/languageJPdecision.txt");
 
 
-
+        drag =gameObject.GetComponent<Drag>();
         quesIndex = Random.Range(0, linesEn.Length);
-
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (drag.yollandiLeft==true)
+        {
+            diyalog2Text.text = diyalog2Strings[quesIndex]+".";
+        }
         if (tr == true)
         {
             leftText.text = leftStrings[quesIndex];
