@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class managment : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public List<int> cards=new List<int>();
     void Start()
     {
-        
+        PlayerPrefs.DeleteAll();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

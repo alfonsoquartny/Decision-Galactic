@@ -357,6 +357,7 @@ MonoBehaviour:
   - Info
   - Info
   question: {fileID: 0}
+  aktifQuesIndex: 0
   leftText: {fileID: 7020296165806631155}
   RightText: {fileID: 7020296165849761656}
   nick: {fileID: 1936597901}
@@ -393,17 +394,8 @@ MonoBehaviour:
   Diyalog2: 0
   drag: {fileID: 0}
   diyalog2Text: {fileID: 0}
-  diyalog2Strings:
-  - as bebegim
-  - as bebegim
-  - as bebegim
-  - as bebegim
-  - as bebegim
-  - as bebegim
-  - as bebegim
-  - as bebegim
-  - as bebegim
-  - as bebegim
+  diyalog2Strings: []
+  Managment: {fileID: 0}
 --- !u!114 &7020296164672897761
 MonoBehaviour:
   m_ObjectHideFlags: 0

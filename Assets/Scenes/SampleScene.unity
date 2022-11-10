@@ -1066,7 +1066,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: fc2269557c669ef4dbbb99910b42fa4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2458,7 +2458,7 @@ GameObject:
   - component: {fileID: 2132839763}
   m_Layer: 0
   m_Name: manager
-  m_TagString: Untagged
+  m_TagString: management
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2489,6 +2489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82786b1be0a2452438d17a8650458caf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cards: 
 --- !u!1 &2144545893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2649,64 +2650,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1197456450}
     - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
+      propertyPath: Managment
+      value: 
+      objectReference: {fileID: 2132839763}
+    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
       propertyPath: diyalog2Text
       value: 
       objectReference: {fileID: 1544542522}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.size
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[10]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[11]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[12]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[13]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[14]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[15]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[16]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[17]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[18]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[19]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[20]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[21]
-      value: as bebegim
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020296164672897788, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}
-      propertyPath: diyalog2Strings.Array.data[22]
-      value: as bebegim
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd7c7742a71002a4fb907675b290f63e, type: 3}

@@ -177,6 +177,7 @@ public class Drag : MonoBehaviour
         {
            rightTaken = true;
             Destroy(this.gameObject, 3f);
+            Instantiate(prefab);
             yollandiLeft = true;
         }
     }

@@ -9,6 +9,7 @@ TagManager:
   - rightTaked
   - leftTaked
   - tarihText
+  - management
   layers:
   - Default
   - TransparentFX

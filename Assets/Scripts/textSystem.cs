@@ -25,6 +25,8 @@ public class textSystem : MonoBehaviour
 
     private string Wording;
     private int quesIndex;
+    public int aktifQuesIndex;
+
 
     public Text leftText;
     public Text RightText;
@@ -44,6 +46,9 @@ public class textSystem : MonoBehaviour
     public Drag drag;
     public TMP_Text diyalog2Text;
     public string[] diyalog2Strings;
+
+    public managment Managment;
+
     void Start()
     {
         gameObject.transform.name = "card";
@@ -53,17 +58,31 @@ public class textSystem : MonoBehaviour
 
 
         drag =gameObject.GetComponent<Drag>();
-        quesIndex = Random.Range(0, linesEn.Length);
+
+        Managment.cards.Add(aktifQuesIndex);
+
+
+        
+            quesIndex = Random.Range(0, linesEn.Length);
+        
+        
+        
+
+
+            Managment = GameObject.FindGameObjectWithTag("management").GetComponent<managment>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        aktifQuesIndex = quesIndex;
+        /* SORU CEVAPLAMA DEMO
         if (drag.yollandiLeft==true)
-        {
-            diyalog2Text.text = diyalog2Strings[quesIndex]+".";
-        }
+          {
+              diyalog2Text.text = diyalog2Strings[quesIndex]+".";
+          }
+        *///SORU CEVAPLAMA DEMO
         if (tr == true)
         {
             leftText.text = leftStrings[quesIndex];
@@ -74,6 +93,8 @@ public class textSystem : MonoBehaviour
             info.text = infos[quesIndex];
 
             question.text = linesTR[quesIndex];
+
+            aktifQuesIndex = quesIndex;
         }
 
         if (eng == true)
